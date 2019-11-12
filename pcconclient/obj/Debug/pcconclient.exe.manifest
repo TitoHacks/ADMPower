@@ -126,14 +126,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pcconclient.exe" size="198112">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pcconclient.exe" size="197600">
       <assemblyIdentity name="pcconclient" version="0.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>FXE6ZFQk+mZNV7DizpC8U2YhNbdj0S2rIV3an5p9RWc=</dsig:DigestValue>
+        <dsig:DigestValue>UWH2WBy58XHlv2VU1RwgOMZjOjMx00MYAWZggB+DcWM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

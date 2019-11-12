@@ -125,14 +125,16 @@ namespace pcconclient
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            Version version = assembly.GetName().Version;
+            string versiondelsoftware = "1.0";
             WebClient webClien = new WebClient();
-            if (!webClien.DownloadString() > version) {
-                MessageBox.Show("Update this software");
-                System.Diagnostics.Process.Start("");
-            
+            string versiondescargada = webClien.DownloadString("https://raw.githubusercontent.com/TitoHacks/ADMPower/master/version.txt");
+            if (versiondescargada != versiondelsoftware)
+            {
+                MessageBox.Show("A new version of this software is avaiable");
+                System.Diagnostics.Process.Start("https://admpower.weebly.com/#");
+
             }
+         
             timer1.Start();
             timer2.Start();
             timer3.Start();
