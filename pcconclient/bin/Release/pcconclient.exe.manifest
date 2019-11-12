@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YGmVJnvDphUNPZZM0fR0aC/RBWZWk/ZER9UbD5j8z8E=</dsig:DigestValue>
+        <dsig:DigestValue>9lmv0b8dAoYqHPgBMOaBCerY2rEtdzz19bujMe5Yy6I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -86,7 +86,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gHwrb185ywJuPSRJCZwxq0SHNn7Q4xC3r0WuY12rKus=</dsig:DigestValue>
+        <dsig:DigestValue>qDRQDNpzPP+0LzzLT52ZFfcQRCcixzgvEvqKMTiTMjM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -127,14 +127,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pcconclient.exe" size="333280">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pcconclient.exe" size="331744">
       <assemblyIdentity name="pcconclient" version="0.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>j4E207m41BGxRdxfrot+O4ccjkXfNYYQsHe87r1VqKM=</dsig:DigestValue>
+        <dsig:DigestValue>oI2y9NsUtjBzV9Ld0hCY5k6rxoBytyTlZ8VbU6udn6U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

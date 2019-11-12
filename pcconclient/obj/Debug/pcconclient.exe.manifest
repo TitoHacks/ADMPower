@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <asmv1:assemblyIdentity name="pcconclient.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="LogoMakr_1k8U8l.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="pcconclient" version="0.0.0.1" language="neutral" processorArchitecture="msil" />
@@ -126,17 +127,35 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pcconclient.exe" size="197600">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pcconclient.exe" size="333280">
       <assemblyIdentity name="pcconclient" version="0.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UWH2WBy58XHlv2VU1RwgOMZjOjMx00MYAWZggB+DcWM=</dsig:DigestValue>
+        <dsig:DigestValue>j4E207m41BGxRdxfrot+O4ccjkXfNYYQsHe87r1VqKM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="d011131e-ad57-4dcc-b098-2a94efeb0b8e_200x200.ico" size="165662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EJmdBv2oaTiho2p2QcRfV9/y7iiqG14U3wYgPL9j8yU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LogoMakr_1k8U8l.ico" size="135230">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6id0AHxEYWhQ6Dm4NAhvrjOhxuNgUEin1aBnsOTugcQ=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="pcconclient.exe.config" size="189">
     <hash>
       <dsig:Transforms>
