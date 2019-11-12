@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="pcconclient.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="pcconclient" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="pcconclient" version="0.0.0.1" language="neutral" processorArchitecture="msil" />
     <commandLine file="pcconclient.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -126,14 +126,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pcconclient.exe" size="197088">
-      <assemblyIdentity name="pcconclient" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pcconclient.exe" size="198112">
+      <assemblyIdentity name="pcconclient" version="0.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>mBQ3cM0PwIehWsZ6OmZFpWrlWl9A9JYaAwvpwE4UOqE=</dsig:DigestValue>
+        <dsig:DigestValue>FXE6ZFQk+mZNV7DizpC8U2YhNbdj0S2rIV3an5p9RWc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

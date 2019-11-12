@@ -125,78 +125,12 @@ namespace pcconclient
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string downloadulr = "https://github.com/TitoHacks/ADMPower/archive/master.zip";
-            Version newVersion = null;
-            string xmlUrl = "https://github.com/TitoHacks/ADMPower";
-            XmlTextReader reader = null;
-            try
-            {
-                reader = new XmlTextReader(xmlUrl);
-                reader.MoveToContent();
-                string elementName = "";
-                if ((reader.NodeType == XmlNodeType.Element) && (reader.Name == "ADMPower"))
-                {
-
-                    while (reader.Read())
-                    {
-                        if (reader.NodeType == XmlNodeType.Element)
-                        {
-
-                            elementName = reader.Name;
-
-
-                        }
-                        else
-                        {
-
-                            if ((reader.NodeType == XmlNodeType.Text) && reader.HasValue)
-                            {
-
-                                switch (elementName)
-                                {
-
-                                    case "version":
-                                        newVersion = new Version(reader.Value);
-                                        break;
-                                    case "url":
-                                        downloadulr = reader.Value;
-                                        break;
-
-
-                                }
-
-                            }
-
-                        }
-
-                    }
-
-                }
-
-
-
-
-            }
-            catch (Exception es)
-            {
-
-                MessageBox.Show("No hay actualizaciones");
-
-            }
-            finally {
-                if (reader != null) {
-                    reader.Close();
-                
-                }
-                Version applicationversion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
-                if (applicationversion.CompareTo(newVersion) < 0)
-                {
-
-                    MessageBox.Show("Updating...");
-                    System.Diagnostics.Process.Start(downloadulr);
-
-                }
-              
+            System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            Version version = assembly.GetName().Version;
+            WebClient webClien = new WebClient();
+            if (!webClien.DownloadString() > version) {
+                MessageBox.Show("Update this software");
+                System.Diagnostics.Process.Start("");
             
             }
             timer1.Start();
